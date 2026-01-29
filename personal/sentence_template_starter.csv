@@ -24,3 +24,254 @@ template_id,template,label,origin_placeholder,destination_placeholder,notes
 23,{ville1} ou {ville2} pour les vacances ?,INVALID,NULL,NULL,Hésitation vacances
 24,Le maire de {ville1},INVALID,NULL,NULL,Question politique
 25,Restaurant à {ville1},INVALID,NULL,NULL,Recherche service
+26,Je réserve un train de {ville1} à {ville2},VALID,ville1,ville2,Réservation
+27,Prochain départ de {ville1} pour {ville2},VALID,ville1,ville2,Départ imminent
+28,Je veux prendre le train de {ville1} à {ville2},VALID,ville1,ville2,Intention
+29,Train du matin {ville1} {ville2},VALID,ville1,ville2,Horaire matin
+30,Je cherche un trajet en train de {ville1} vers {ville2},VALID,ville1,ville2,Recherche trajet
+31,Quelle est la durée du trajet en train de {ville1} à {ville2} ?,VALID,ville1,ville2,Question durée
+32,Je souhaite prendre le train de {ville1} pour {ville2},VALID,ville1,ville2,Souhait
+33,Un billet de train pour aller de {ville1} à {ville2},VALID,ville1,ville2,Billet détaillé
+34,Y a-t-il un TGV {ville1} {ville2} ?,VALID,ville1,ville2,TGV spécifique
+35,Je veux un train rapide de {ville1} à {ville2},VALID,ville1,ville2,Préférence rapidité
+36,Train de nuit {ville1} {ville2},VALID,ville1,ville2,Horaire nuit
+37,Je pars demain de {ville1} vers {ville2},VALID,ville1,ville2,Départ demain
+38,Comment rejoindre {ville2} depuis {ville1} en train ?,VALID,ville1,ville2,Rejoindre
+39,Je dois aller de {ville1} à {ville2} ce soir,VALID,ville1,ville2,Urgence soir
+40,Billet de train {ville1} {ville2} pour aujourd'hui,VALID,ville1,ville2,Aujourd'hui
+41,Premier train {ville1} {ville2},VALID,ville1,ville2,Premier horaire
+42,Dernier train de {ville1} vers {ville2},VALID,ville1,ville2,Dernier horaire
+43,Je veux voyager en train de {ville1} à {ville2},VALID,ville1,ville2,Moyen précisé
+44,Quel est le meilleur train de {ville1} à {ville2} ?,VALID,ville1,ville2,Meilleur choix
+45,Je dois prendre le train de {ville1} pour {ville2},VALID,ville1,ville2,Nécessité
+46,Train rapide de {ville1} à {ville2},VALID,ville1,ville2,Rapidité
+47,Je voudrais aller de {ville1} à {ville2} en TGV,VALID,ville1,ville2,TGV précis
+48,À quelle heure arrive le train à {ville2} depuis {ville1} ?,VALID,ville1,ville2,Horaire arrivée
+49,Je planifie un voyage en train de {ville1} vers {ville2},VALID,ville1,ville2,Planification
+50,Y a-t-il des trains disponibles de {ville1} à {ville2} ?,VALID,ville1,ville2,Disponibilité
+51,Un billet pour le train {ville1} {ville2},VALID,ville1,ville2,Billet simple
+52,Je vais de {ville1} à {ville2} en train,VALID,ville1,ville2,Annonce
+53,Quel train me conseillez-vous de {ville1} à {ville2} ?,VALID,ville1,ville2,Conseil demandé
+54,Je cherche le train le moins cher de {ville1} à {ville2},VALID,ville1,ville2,Budget
+55,Train avec le moins de correspondances {ville1} {ville2},VALID,ville1,ville2,Peu changements
+56,Je veux partir maintenant de {ville1} pour {ville2},VALID,ville1,ville2,Départ immédiat
+57,Y a-t-il un Intercités {ville1} {ville2} ?,VALID,ville1,ville2,Intercités
+58,Je souhaite réserver un train de {ville1} vers {ville2},VALID,ville1,ville2,Réservation formelle
+59,Train de {ville1} à {ville2} cet après-midi,VALID,ville1,ville2,Après-midi
+60,Combien de temps dure le trajet en train de {ville1} à {ville2} ?,VALID,ville1,ville2,Durée question
+61,Je prends le train de {ville1} à {ville2},VALID,ville1,ville2,Décision prise
+62,Y a-t-il un train tôt le matin de {ville1} vers {ville2} ?,VALID,ville1,ville2,Matin tôt
+63,Je veux arriver à {ville2} depuis {ville1},VALID,ville1,ville2,Objectif arrivée
+64,Quel est l'horaire du prochain train {ville1} {ville2} ?,VALID,ville1,ville2,Horaire prochain
+65,Je dois me déplacer de {ville1} à {ville2} en train,VALID,ville1,ville2,Déplacement
+66,Train du soir {ville1} {ville2},VALID,ville1,ville2,Soir
+67,Je voudrais connaître les horaires de train de {ville1} à {ville2},VALID,ville1,ville2,Demande horaires
+68,Y a-t-il un TER {ville1} {ville2} ?,VALID,ville1,ville2,TER
+69,Je veux un train confortable de {ville1} à {ville2},VALID,ville1,ville2,Confort
+70,Billet aller simple en train {ville1} {ville2},VALID,ville1,ville2,Aller simple précis
+71,Je pars en train de {ville1} vers {ville2},VALID,ville1,ville2,Départ train
+72,Quelle est la fréquence des trains {ville1} {ville2} ?,VALID,ville1,ville2,Fréquence
+73,Je veux me rendre à {ville2} depuis {ville1} par le train,VALID,ville1,ville2,Par train
+74,Y a-t-il des trains en semaine de {ville1} à {ville2} ?,VALID,ville1,ville2,Semaine
+75,Je cherche un train pour demain de {ville1} à {ville2},VALID,ville1,ville2,Demain
+76,Train en fin d'après-midi {ville1} {ville2},VALID,ville1,ville2,Fin après-midi
+77,Je dois voyager de {ville1} à {ville2} ce week-end,VALID,ville1,ville2,Week-end
+78,Billet de train aller-retour {ville1} {ville2},VALID,ville1,ville2,A/R précis
+79,Je veux le train le plus rapide de {ville1} à {ville2},VALID,ville1,ville2,Plus rapide
+80,Y a-t-il un train dans l'heure de {ville1} vers {ville2} ?,VALID,ville1,ville2,Dans l'heure
+81,Je souhaite partir de {ville1} et arriver à {ville2},VALID,ville1,ville2,Départ arrivée
+82,Train direct sans correspondance {ville1} {ville2},VALID,ville1,ville2,Direct explicite
+83,Je veux acheter un billet de train {ville1} {ville2},VALID,ville1,ville2,Achat
+84,Quel train prendre pour aller de {ville1} à {ville2} ?,VALID,ville1,ville2,Choix train
+85,Y a-t-il un départ en début de soirée de {ville1} pour {ville2} ?,VALID,ville1,ville2,Début soirée
+86,Je cherche le meilleur horaire de train {ville1} {ville2},VALID,ville1,ville2,Meilleur horaire
+87,Train régional de {ville1} à {ville2},VALID,ville1,ville2,Régional
+88,Je dois être à {ville2} avant midi en partant de {ville1},VALID,ville1,ville2,Contrainte temps
+89,Y a-t-il un train toutes les heures de {ville1} à {ville2} ?,VALID,ville1,ville2,Fréquence horaire
+90,Je veux réserver une place dans le train {ville1} {ville2},VALID,ville1,ville2,Réservation place
+91,Train pour {ville2} au départ de {ville1},VALID,ville1,ville2,Pour destination
+92,Je souhaite partir en milieu de matinée de {ville1} vers {ville2},VALID,ville1,ville2,Milieu matinée
+93,Y a-t-il un TGV direct {ville1} {ville2} ?,VALID,ville1,ville2,TGV direct
+94,Je veux comparer les horaires de train de {ville1} à {ville2},VALID,ville1,ville2,Comparaison
+95,Prochain TGV de {ville1} pour {ville2},VALID,ville1,ville2,Prochain TGV
+96,Je dois prendre un train de {ville1} à {ville2} lundi,VALID,ville1,ville2,Jour précis
+97,Train avec peu de monde de {ville1} à {ville2},VALID,ville1,ville2,Affluence
+98,Je cherche un train après 18h de {ville1} vers {ville2},VALID,ville1,ville2,Après heure
+99,Y a-t-il des réductions sur le train {ville1} {ville2} ?,VALID,ville1,ville2,Réductions
+100,Je veux le train de {ville1} à {ville2} le plus tôt possible,VALID,ville1,ville2,Plus tôt
+101,Train en milieu de journée {ville1} {ville2},VALID,ville1,ville2,Milieu journée
+102,Je dois faire {ville1} {ville2} en train,VALID,ville1,ville2,Faire trajet
+103,Y a-t-il un train avant 8h de {ville1} à {ville2} ?,VALID,ville1,ville2,Avant heure
+104,Je veux voyager confortablement de {ville1} vers {ville2},VALID,ville1,ville2,Confortablement
+105,Quel est le prix du billet de train {ville1} {ville2} ?,VALID,ville1,ville2,Prix billet
+106,Je cherche un train pour la semaine prochaine de {ville1} à {ville2},VALID,ville1,ville2,Semaine prochaine
+107,Train quotidien {ville1} {ville2},VALID,ville1,ville2,Quotidien
+108,Je veux partir de {ville1} et descendre à {ville2},VALID,ville1,ville2,Descendre à
+109,Y a-t-il un Ouigo de {ville1} vers {ville2} ?,VALID,ville1,ville2,Ouigo
+110,Je souhaite prendre un train en début d'après-midi de {ville1} à {ville2},VALID,ville1,ville2,Début après-midi
+111,Train avec wifi de {ville1} à {ville2},VALID,ville1,ville2,Avec wifi
+112,Je dois voyager de {ville1} à {ville2} vendredi,VALID,ville1,ville2,Vendredi
+113,Y a-t-il un train rapide sans arrêt {ville1} {ville2} ?,VALID,ville1,ville2,Sans arrêt
+114,Je veux un billet flexible {ville1} {ville2},VALID,ville1,ville2,Flexible
+115,Train matinal de {ville1} vers {ville2},VALID,ville1,ville2,Matinal
+116,Je cherche à aller de {ville1} à {ville2} par le train,VALID,ville1,ville2,Par train
+117,Y a-t-il un départ vers 14h de {ville1} pour {ville2} ?,VALID,ville1,ville2,Vers heure
+118,Je veux acheter mon billet pour le train {ville1} {ville2},VALID,ville1,ville2,Acheter billet
+119,Train avec places assises garanties {ville1} {ville2},VALID,ville1,ville2,Places garanties
+120,Je dois me déplacer en train de {ville1} vers {ville2} mardi,VALID,ville1,ville2,Mardi
+121,Y a-t-il un train l'après-midi de {ville1} à {ville2} ?,VALID,ville1,ville2,Après-midi
+122,Je veux le prochain départ en train de {ville1} pour {ville2},VALID,ville1,ville2,Prochain départ
+123,Train de début de soirée {ville1} {ville2},VALID,ville1,ville2,Début soirée
+124,Je cherche le train le plus économique de {ville1} à {ville2},VALID,ville1,ville2,Économique
+125,Y a-t-il un départ tôt demain de {ville1} vers {ville2} ?,VALID,ville1,ville2,Tôt demain
+126,Je veux partir en train de {ville1} à {ville2} samedi,VALID,ville1,ville2,Samedi
+127,Train avec peu de correspondances de {ville1} vers {ville2},VALID,ville1,ville2,Peu correspondances
+128,Je dois aller à {ville2} en partant de {ville1} en train,VALID,ville1,ville2,En train précis
+129,Y a-t-il un train vers 10h de {ville1} à {ville2} ?,VALID,ville1,ville2,Vers 10h
+130,Je veux réserver pour le train de {ville1} vers {ville2},VALID,ville1,ville2,Réserver pour
+131,Train de fin de matinée {ville1} {ville2},VALID,ville1,ville2,Fin matinée
+132,Je cherche un train dimanche de {ville1} à {ville2},VALID,ville1,ville2,Dimanche
+133,Y a-t-il un TGV en fin d'après-midi {ville1} {ville2} ?,VALID,ville1,ville2,TGV fin après-midi
+134,Je veux partir après le déjeuner de {ville1} pour {ville2},VALID,ville1,ville2,Après déjeuner
+135,Train avec restauration de {ville1} à {ville2},VALID,ville1,ville2,Avec restauration
+136,Je dois voyager en train de {ville1} vers {ville2} mercredi,VALID,ville1,ville2,Mercredi
+137,Y a-t-il un train vers midi de {ville1} à {ville2} ?,VALID,ville1,ville2,Vers midi
+138,Je veux le train avec le meilleur confort {ville1} {ville2},VALID,ville1,ville2,Meilleur confort
+139,Train express de {ville1} vers {ville2},VALID,ville1,ville2,Express
+140,Je cherche un train jeudi de {ville1} à {ville2},VALID,ville1,ville2,Jeudi
+141,Y a-t-il un départ en soirée de {ville1} pour {ville2} ?,VALID,ville1,ville2,En soirée
+142,Je veux partir de {ville1} à {ville2} en première classe,VALID,ville1,ville2,Première classe
+143,Train de milieu d'après-midi {ville1} {ville2},VALID,ville1,ville2,Milieu après-midi
+144,Je dois me rendre à {ville2} depuis {ville1} en TGV,VALID,ville1,ville2,En TGV
+145,Y a-t-il un train toutes les deux heures de {ville1} à {ville2} ?,VALID,ville1,ville2,Fréquence 2h
+146,Je veux un train avec prises électriques {ville1} {ville2},VALID,ville1,ville2,Prises électriques
+147,Train de fin de journée {ville1} vers {ville2},VALID,ville1,ville2,Fin journée
+148,Je cherche à voyager de {ville1} à {ville2} en TER,VALID,ville1,ville2,En TER
+149,Y a-t-il un train de nuit entre {ville1} et {ville2} ?,VALID,ville1,ville2,Entre villes
+150,Je veux partir en milieu de soirée de {ville1} pour {ville2},VALID,ville1,ville2,Milieu soirée
+151,Quel temps fait-il à {ville1} ?,INVALID,NULL,NULL,Météo
+152,J'habite à {ville1},INVALID,NULL,NULL,Résidence
+153,{ville1} est une belle ville,INVALID,NULL,NULL,Commentaire
+154,Mon ami vit à {ville1} et moi à {ville2},INVALID,NULL,NULL,Info personnelle
+155,Quelle est la population de {ville1} ?,INVALID,NULL,NULL,Démographie
+156,Bonjour,INVALID,NULL,NULL,Salutation
+157,{ville1} ou {ville2} pour les vacances ?,INVALID,NULL,NULL,Hésitation
+158,Le maire de {ville1},INVALID,NULL,NULL,Politique
+159,Restaurant à {ville1},INVALID,NULL,NULL,Restaurant
+160,Quelle heure est-il à {ville1} ?,INVALID,NULL,NULL,Heure
+161,J'habite actuellement à {ville1},INVALID,NULL,NULL,Habitation
+162,{ville1} est magnifique en été,INVALID,NULL,NULL,Commentaire saison
+163,Hôtel disponible à {ville2},INVALID,NULL,NULL,Hébergement
+164,Carte touristique de {ville1},INVALID,NULL,NULL,Tourisme
+165,Je travaille à {ville2},INVALID,NULL,NULL,Travail
+166,Musée célèbre à {ville1},INVALID,NULL,NULL,Musée
+167,Météo actuelle à {ville1},INVALID,NULL,NULL,Météo actuelle
+168,Je vis à {ville2},INVALID,NULL,NULL,Vie
+169,Carte de {ville1},INVALID,NULL,NULL,Carte
+170,Hôtel pas cher à {ville2},INVALID,NULL,NULL,Hôtel
+171,Histoire de {ville1},INVALID,NULL,NULL,Histoire
+172,Musée à visiter à {ville2},INVALID,NULL,NULL,Visite musée
+173,Quartiers de {ville1},INVALID,NULL,NULL,Quartiers
+174,Concert prévu à {ville2},INVALID,NULL,NULL,Concert
+175,Langue parlée à {ville1},INVALID,NULL,NULL,Langue
+176,Code postal {ville2},INVALID,NULL,NULL,Code postal
+177,Photo de {ville1},INVALID,NULL,NULL,Photo
+178,Actualités à {ville2},INVALID,NULL,NULL,Actualités
+179,Université à {ville1},INVALID,NULL,NULL,Université
+180,Entreprise connue à {ville2},INVALID,NULL,NULL,Entreprise
+181,Plages proches de {ville1},INVALID,NULL,NULL,Plages
+182,Shopping à {ville2},INVALID,NULL,NULL,Shopping
+183,Guide touristique {ville1},INVALID,NULL,NULL,Guide
+184,Ambassade à {ville2},INVALID,NULL,NULL,Ambassade
+185,Je suis né à {ville1},INVALID,NULL,NULL,Naissance
+186,Climat de {ville1},INVALID,NULL,NULL,Climat
+187,Spécialités culinaires {ville2},INVALID,NULL,NULL,Cuisine
+188,Monument célèbre à {ville1},INVALID,NULL,NULL,Monument
+189,Festival à {ville2},INVALID,NULL,NULL,Festival
+190,Quartier sûr à {ville1},INVALID,NULL,NULL,Sécurité
+191,Carte météo {ville2},INVALID,NULL,NULL,Carte météo
+192,Journaux locaux {ville1},INVALID,NULL,NULL,Journaux
+193,Population étudiante {ville2},INVALID,NULL,NULL,Étudiants
+194,Heure locale à {ville1},INVALID,NULL,NULL,Heure locale
+195,Je déménage à {ville2},INVALID,NULL,NULL,Déménagement
+196,Carte postale {ville1},INVALID,NULL,NULL,Carte postale
+197,Meilleur moment pour visiter {ville2},INVALID,NULL,NULL,Moment visite
+198,Architecture de {ville1},INVALID,NULL,NULL,Architecture
+199,Économie de {ville2},INVALID,NULL,NULL,Économie
+200,Photos anciennes {ville1},INVALID,NULL,NULL,Photos
+201,Guide étudiant {ville2},INVALID,NULL,NULL,Guide étudiant
+202,Marché local {ville1},INVALID,NULL,NULL,Marché
+203,Parc célèbre à {ville1},INVALID,NULL,NULL,Parc
+204,Statistiques météo {ville2},INVALID,NULL,NULL,Stats météo
+205,Office du tourisme {ville1},INVALID,NULL,NULL,Office tourisme
+206,Plan de ville {ville2},INVALID,NULL,NULL,Plan
+207,Associations à {ville2},INVALID,NULL,NULL,Associations
+208,Immobilier à {ville1},INVALID,NULL,NULL,Immobilier
+209,Coût de la vie {ville2},INVALID,NULL,NULL,Coût vie
+210,Carte historique {ville1},INVALID,NULL,NULL,Carte historique
+211,Photos aériennes {ville2},INVALID,NULL,NULL,Photos aériennes
+212,Bibliothèque à {ville1},INVALID,NULL,NULL,Bibliothèque
+213,Écoles à {ville2},INVALID,NULL,NULL,Écoles
+214,Monuments historiques {ville1},INVALID,NULL,NULL,Monuments
+215,Clubs sportifs {ville2},INVALID,NULL,NULL,Clubs
+216,Cinéma à {ville1},INVALID,NULL,NULL,Cinéma
+217,Théâtre à {ville2},INVALID,NULL,NULL,Théâtre
+218,Carte administrative {ville1},INVALID,NULL,NULL,Admin
+219,Zones touristiques {ville2},INVALID,NULL,NULL,Zones
+220,Population active {ville1},INVALID,NULL,NULL,Pop active
+221,Office postal {ville1},INVALID,NULL,NULL,Poste
+222,Hôpitaux à {ville2},INVALID,NULL,NULL,Hôpitaux
+223,Carte des routes {ville1},INVALID,NULL,NULL,Routes
+224,Zones vertes {ville2},INVALID,NULL,NULL,Zones vertes
+225,Statistiques emploi {ville1},INVALID,NULL,NULL,Emploi
+226,Centres commerciaux {ville2},INVALID,NULL,NULL,Centres
+227,Quartiers historiques {ville1},INVALID,NULL,NULL,Q historiques
+228,Événements locaux {ville1},INVALID,NULL,NULL,Événements
+229,Guide pratique {ville2},INVALID,NULL,NULL,Guide pratique
+230,Carte scolaire {ville1},INVALID,NULL,NULL,Scolaire
+231,Zones industrielles {ville2},INVALID,NULL,NULL,Industrielles
+232,Patrimoine culturel {ville1},INVALID,NULL,NULL,Patrimoine
+233,Agenda culturel {ville2},INVALID,NULL,NULL,Agenda
+234,Services publics {ville1},INVALID,NULL,NULL,Services
+235,Centres sportifs {ville2},INVALID,NULL,NULL,Sport
+236,Associations locales {ville1},INVALID,NULL,NULL,Asso
+237,Cartographie {ville2},INVALID,NULL,NULL,Carto
+238,Marchés hebdomadaires {ville1},INVALID,NULL,NULL,Marchés
+239,Espaces verts {ville2},INVALID,NULL,NULL,Espaces
+240,Carte interactive {ville1},INVALID,NULL,NULL,Interactive
+241,Informations locales {ville2},INVALID,NULL,NULL,Infos
+242,Centres médicaux {ville1},INVALID,NULL,NULL,Médicaux
+243,Zones rurales {ville1},INVALID,NULL,NULL,Rurales
+244,Quartiers modernes {ville2},INVALID,NULL,NULL,Modernes
+245,Statistiques démographiques {ville1},INVALID,NULL,NULL,Démo stats
+246,Offres d'emploi {ville2},INVALID,NULL,NULL,Emploi offres
+247,Activités culturelles {ville1},INVALID,NULL,NULL,Activités
+248,Calendrier événements {ville2},INVALID,NULL,NULL,Calendrier
+249,Zones touristiques {ville1},INVALID,NULL,NULL,Zones tour
+250,Événements sportifs {ville1},INVALID,NULL,NULL,Sport events
+251,Carte météo {ville2},INVALID,NULL,NULL,Météo carte
+252,Population totale {ville1},INVALID,NULL,NULL,Pop totale
+253,Guide urbain {ville2},INVALID,NULL,NULL,Guide urbain
+254,Centres culturels {ville1},INVALID,NULL,NULL,Culturels
+255,Activités nocturnes {ville2},INVALID,NULL,NULL,Nocturnes
+256,Informations pratiques {ville1},INVALID,NULL,NULL,Pratiques
+257,Carte générale {ville2},INVALID,NULL,NULL,Générale
+258,Transport urbain {ville2},INVALID,NULL,NULL,Transport urbain
+259,Services municipaux {ville1},INVALID,NULL,NULL,Municipaux
+260,Informations trafic {ville2},INVALID,NULL,NULL,Trafic
+261,Statistiques locales {ville1},INVALID,NULL,NULL,Stats locales
+262,Centres de loisirs {ville1},INVALID,NULL,NULL,Loisirs
+263,Zones commerciales {ville2},INVALID,NULL,NULL,Commerciales
+264,Activités sportives {ville1},INVALID,NULL,NULL,Sport activ
+265,Carte détaillée {ville2},INVALID,NULL,NULL,Détaillée
+266,Population urbaine {ville1},INVALID,NULL,NULL,Pop urbaine
+267,Carte des quartiers {ville2},INVALID,NULL,NULL,Quartiers carte
+268,Événements culturels {ville1},INVALID,NULL,NULL,Events culture
+269,Guide local {ville2},INVALID,NULL,NULL,Local guide
+270,Centres éducatifs {ville1},INVALID,NULL,NULL,Éducatifs
+271,Services de santé {ville2},INVALID,NULL,NULL,Santé services
+272,Statistiques économiques {ville1},INVALID,NULL,NULL,Éco stats
+273,Transports locaux {ville2},INVALID,NULL,NULL,Transports loc
+274,Zones résidentielles {ville1},INVALID,NULL,NULL,Résidentielles
+275,Informations générales {ville2},INVALID,NULL,NULL,Générales
+276,La distance entre {ville1} et {ville2},INVALID,NULL,NULL,Distance info
