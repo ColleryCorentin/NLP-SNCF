@@ -1,0 +1,26 @@
+template_id,template,label,origin_placeholder,destination_placeholder,notes
+1,Je veux aller de {ville1} à {ville2},VALID,ville1,ville2,Structure basique
+2,Un billet {ville1} {ville2} s'il vous plaît,VALID,ville1,ville2,Sans préposition
+3,Comment me rendre à {ville2} depuis {ville1} ?,VALID,ville1,ville2,Question formelle
+4,Y a-t-il des trains vers {ville2} au départ de {ville1} ?,VALID,ville1,ville2,Question détaillée
+5,Je souhaite voyager de {ville1} vers {ville2},VALID,ville1,ville2,Registre soutenu
+6,{ville1} {ville2} pour demain,VALID,ville1,ville2,Très court
+7,Je dois me rendre de {ville1} à {ville2},VALID,ville1,ville2,Obligation
+8,Quels sont les horaires de train {ville1} {ville2} ?,VALID,ville1,ville2,Question horaires
+9,Je voudrais partir de {ville1} pour aller à {ville2},VALID,ville1,ville2,Structure longue
+10,Un aller simple {ville1} {ville2},VALID,ville1,ville2,Type de billet
+11,Trajet de {ville1} vers {ville2},VALID,ville1,ville2,Mot clé "trajet"
+12,Je pars de {ville1} direction {ville2},VALID,ville1,ville2,Mot "direction"
+13,Prochain train pour {ville2} depuis {ville1},VALID,ville1,ville2,Notion de temps
+14,Je cherche un train {ville1} {ville2},VALID,ville1,ville2,Verbe "chercher"
+15,Départ {ville1} arrivée {ville2},VALID,ville1,ville2,Mots explicites
+16,Quel temps fait-il à {ville1} ?,INVALID,NULL,NULL,Question météo
+17,J'habite à {ville1},INVALID,NULL,NULL,Information résidence
+18,{ville1} est une belle ville,INVALID,NULL,NULL,Commentaire général
+19,Mon ami vit à {ville1} et moi à {ville2},INVALID,NULL,NULL,Information personnelle
+20,La distance entre {ville1} et {ville2},INVALID,NULL,NULL,Question géographique
+21,Bonjour,INVALID,NULL,NULL,Salutation simple
+22,Quelle est la population de {ville1} ?,INVALID,NULL,NULL,Question démographique
+23,{ville1} ou {ville2} pour les vacances ?,INVALID,NULL,NULL,Hésitation vacances
+24,Le maire de {ville1},INVALID,NULL,NULL,Question politique
+25,Restaurant à {ville1},INVALID,NULL,NULL,Recherche service

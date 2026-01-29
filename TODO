@@ -1,0 +1,276 @@
+#################
+# Fichier: templates_voyage_fr.js
+# VARIANTES À CRÉER PAR VOUS (exemples de ce que vous devez ajouter):
+# - Variantes sans majuscules: "je veux aller de {ville1} à {ville2}"
+# - Variantes avec fautes: "je ve alé de {ville1} a {ville2}"
+# - Variantes avec pièges: "avec mon ami {prenom} je veux aller de {ville1} à {ville2}"
+# - Variantes ordre inversé: "à {ville2} depuis {ville1} je veux aller"
+# - Variantes avec bruit: "euh je voudrais genre aller de {ville1} à {ville2} quoi"
+#
+# OBJECTIF: Vous devez créer 50 templates VALID et 20 templates INVALID au total
+# Ces 25 templates sont votre BASE DE DÉPART
+#
+# CONSIGNES:
+# - Variez les structures grammaticales
+# - Incluez des formulations formelles et informelles
+# - Pensez aux différents types de questions
+# - N'oubliez pas les phrases très courtes et très longues
+# - Ajoutez des cas limites et ambigus
+
+
+#################
+# LISTE DE VILLES FRANÇAISES (à utiliser pour {ville1} et {ville2}):
+# NOTES IMPORTANTES:
+# - Cette liste contient des villes "pièges" comme Florence (italienne mais aussi prénom),
+#   Albert, Lourdes (prénoms), Port-Boulet (mots communs)
+# - Les villes sont classées par type (grande/moyenne/petite) pour faciliter vos tests
+# - Cette liste n'est PAS exhaustive - vous pouvez l'enrichir avec les données SNCF
+# - Pensez à normaliser les noms (avec/sans accents, traits d'union, etc.)
+#
+# SOURCE DE DONNÉES SNCF:
+# Vous devriez télécharger les vraies données depuis:
+# - https://data.sncf.com/explore/dataset/liste-des-gares/
+# - https://ressources.data.sncf.com/
+
+
+
+
+# GUIDE DE GÉNÉRATION DU DATASET
+# ================================
+
+## OBJECTIF
+Générer un dataset complet pour entraîner votre modèle NLP à :
+1. Classifier les phrases (VALID/INVALID)
+2. Extraire origine et destination
+
+## ARCHITECTURE DE GÉNÉRATION
+
+### ÉTAPE 1: Préparer les composants
+```
+CHARGER:
+  - sentence_templates_starter.csv (vos templates)
+  - villes_francaises_starter.csv (vos villes)
+
+CRÉER des listes supplémentaires:
+  - prenoms = ["Albert", "Florence", "Paris", "Lourdes", "Marcel", ...]
+  - mots_bruit = ["euh", "genre", "bon", "voilà", ...]
+```
+
+### ÉTAPE 2: Générer les phrases de base
+```
+POUR chaque template VALID:
+  POUR plusieurs combinaisons de (ville1, ville2):
+    remplacer {ville1} par une ville
+    remplacer {ville2} par une autre ville différente
+    annoter: sentence_id, phrase, VALID, ville1, ville2
+
+RÉSULTAT: Environ 15 templates × 100 combinaisons = 1500 phrases VALID de base
+```
+
+### ÉTAPE 3: Générer les variantes
+```
+POUR chaque phrase de base:
+
+  VARIANTE 1 - Sans majuscules:
+    convertir toute la phrase en minuscules
+    "Je veux aller de Paris à Lyon" → "je veux aller de paris à lyon"
+
+  VARIANTE 2 - Sans accents:
+    retirer tous les accents
+    "Je veux aller de Sète à Béziers" → "Je veux aller de Sete a Beziers"
+
+  VARIANTE 3 - Avec fautes:
+    introduire des fautes courantes
+    "Je veux aller" → "Je ve alé"
+    "de" → "de" ou "d"
+    "à" → "a"
+
+  VARIANTE 4 - Avec bruit:
+    ajouter des mots de remplissage
+    "Je veux aller de Paris à Lyon" → "Euh je veux genre aller de Paris à Lyon quoi"
+
+  VARIANTE 5 - Ordre inversé (pour certains templates):
+    "de Paris à Lyon" → "à Lyon depuis Paris"
+
+RÉSULTAT: 1500 phrases × 5 variantes = 7500 phrases VALID
+```
+
+### ÉTAPE 4: Générer les phrases INVALID
+```
+POUR chaque template INVALID:
+  POUR plusieurs villes aléatoires:
+    remplacer {ville1} par une ville
+    annoter: sentence_id, phrase, INVALID, NULL, NULL
+
+AJOUTER des phrases complètement aléatoires:
+  - Questions sans rapport avec le train
+  - Phrases incomplètes
+  - Bruit pur: "azeaze", "test test"
+
+RÉSULTAT: Environ 2000-3000 phrases INVALID
+```
+
+### ÉTAPE 5: Ajouter les pièges
+```
+CRÉER des phrases ambiguës:
+  - "Avec mes amis {prenom1} et {prenom2}, je veux aller de {ville1} à {ville2}"
+  - Où prenoms = villes (Florence, Albert, Paris, Lourdes)
+
+  Exemple: "Avec mes amis Florence et Paris, je veux aller de paris a florence"
+  → Annotation: VALID, paris, florence (les villes, pas les prénoms!)
+
+RÉSULTAT: 200-500 phrases pièges
+```
+
+### ÉTAPE 6: Équilibrer et mélanger
+```
+VÉRIFIER l'équilibre:
+  - ~70% VALID, ~30% INVALID (ou 60/40)
+  - Diversité des structures
+  - Diversité des villes (grandes, moyennes, petites)
+
+MÉLANGER aléatoirement tout le dataset
+
+SÉPARER en:
+  - 80% TRAIN (pour l'entraînement)
+  - 10% VALIDATION (pour le fine-tuning)
+  - 10% TEST (pour l'évaluation finale)
+
+RÉSULTAT: Dataset final ~10000 phrases
+```
+
+## FORMAT DU DATASET FINAL
+
+### Pour la classification:
+```csv
+sentence_id,sentence,label
+1,Je veux aller de Paris à Lyon,VALID
+2,Quel temps fait-il?,INVALID
+3,je veux aller de paris a lyon,VALID
+...
+```
+
+### Pour l'extraction (seulement phrases VALID):
+```csv
+sentence_id,sentence,origin,destination
+1,Je veux aller de Paris à Lyon,Paris,Lyon
+3,je veux aller de paris a lyon,paris,lyon
+...
+```
+
+### Pour le NER (annotation token par token - OPTIONNEL AVANCÉ):
+```
+Je O
+veux O
+aller O
+de O
+Paris B-ORIGIN
+à O
+Lyon B-DESTINATION
+```
+
+## CONSEILS PRATIQUES
+
+### 1. Commencez petit
+- Générez d'abord 500 phrases pour tester votre pipeline
+- Vérifiez manuellement un échantillon
+- Assurez-vous que la logique fonctionne
+
+### 2. Automatisez intelligemment
+- Utilisez pandas pour manipuler vos CSV
+- Créez des fonctions réutilisables
+- Documentez votre code de génération
+
+### 3. Qualité > Quantité
+- Mieux vaut 5000 phrases bien annotées que 20000 phrases avec erreurs
+- Faites des vérifications manuelles régulières
+- Corrigez les patterns d'erreurs
+
+### 4. Collaboration
+- Partagez vos templates avec d'autres groupes
+- Récupérez leurs templates
+- Combinez pour avoir plus de diversité
+
+### 5. Versioning
+- Gardez trace des versions de votre dataset
+- dataset_v1.csv, dataset_v2.csv, etc.
+- Documentez ce qui change entre versions
+
+## CHECKLIST DE VALIDATION
+
+Avant de considérer votre dataset comme "prêt":
+
+□ Au moins 10000 phrases au total
+□ Au moins 300 structures de phrases différentes
+□ Équilibre VALID/INVALID vérifié
+□ Variantes (minuscules, fautes, etc.) présentes
+□ Phrases pièges incluses
+□ Vérification manuelle d'un échantillon aléatoire de 100 phrases
+□ Dataset séparé en TRAIN/VALIDATION/TEST
+□ Documentation de votre processus de génération
+□ Métriques de base calculées (distribution, longueur moyenne, etc.)
+
+## EXEMPLE DE GÉNÉRATION PYTHON (CONCEPTUEL)
+
+```python
+# CECI N'EST PAS DU VRAI CODE - C'EST CONCEPTUEL
+
+# Charger les templates et villes
+templates = charger_csv("sentence_templates_starter.csv")
+villes = charger_csv("villes_francaises_starter.csv")
+
+dataset = []
+sentence_id = 1
+
+# Pour chaque template VALID
+pour template dans templates où label == "VALID":
+
+    # Générer plusieurs combinaisons
+    pour _ dans range(100):  # 100 combinaisons par template
+
+        # Choisir deux villes différentes
+        ville1, ville2 = choisir_deux_villes_differentes(villes)
+
+        # Remplacer les placeholders
+        phrase = template.remplacer("{ville1}", ville1)
+        phrase = phrase.remplacer("{ville2}", ville2)
+
+        # Créer les variantes
+        variantes = [
+            phrase,  # Version originale
+            phrase.lower(),  # Sans majuscules
+            retirer_accents(phrase),  # Sans accents
+            ajouter_fautes(phrase),  # Avec fautes
+            ajouter_bruit(phrase)  # Avec mots de remplissage
+        ]
+
+        # Ajouter toutes les variantes au dataset
+        pour variante dans variantes:
+            dataset.ajouter({
+                'sentence_id': sentence_id,
+                'sentence': variante,
+                'label': 'VALID',
+                'origin': ville1,
+                'destination': ville2
+            })
+            sentence_id += 1
+
+# Même logique pour templates INVALID...
+# Même logique pour phrases pièges...
+
+# Mélanger et sauvegarder
+dataset = melanger_aleatoirement(dataset)
+sauvegarder_csv(dataset, "dataset_complet.csv")
+```
+
+## NEXT STEPS
+
+1. Lisez ce guide attentivement
+2. Complétez vos templates (50 VALID + 20 INVALID minimum)
+3. Enrichissez votre liste de villes avec données SNCF
+4. Implémentez votre script de génération en Python
+5. Générez votre dataset
+6. Validez la qualité manuellement
+7. Collaborez avec d'autres groupes pour échanger des templates
+
+Bonne chance!
