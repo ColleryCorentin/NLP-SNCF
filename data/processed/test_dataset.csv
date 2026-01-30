@@ -1,0 +1,413 @@
+sentence_id,label,sentence,departure,arrival,template_id
+1358,VALID,Je dois voyager en trai nde Ambiose vers Bayonne mrecredi,Amboise,Bayonne,136
+4079,VALID,Y a-t-il un depart en soiree de Orange pour Montargis ?,Orange,Montargis,141
+1407,VALID,Je dois me rendre à Vierzon depuis Albert en TGV,Albert,Vierzon,144
+2583,INVALID,Concert prévu à Montivilliers,,,174
+74,VALID,train rapide de quimper à toulon,Quimper,Toulon,46
+2505,INVALID,Événements culturels Port-Boulet,,,268
+339,VALID,Je veux partir maintenant de Paris pour Toulouse,Paris,Toulouse,56
+2721,INVALID,Immobilier à Granville,,,208
+3798,INVALID,le maire de soissons,,,158
+718,VALID,Train express de Loches vers Fontainebleau,Loches,Fontainebleau,139
+1258,VALID,Train en milieu de journée Biarritz Ancenis,Biarritz,Ancenis,101
+3945,INVALID,Evenements culturels Beziers,,,268
+2469,INVALID,Je travaille à Toul,,,165
+1785,INVALID,carte touristique de saint-brieuc,,,164
+2572,INVALID,Centres de loisirs Chaumont,,,262
+1632,VALID,Prochain TGV de Vitré pour Poitiers,Vitré,Poitiers,95
+1929,INVALID,quel temps fait-il à nice ?,,,151
+2696,INVALID,Mon ami vit à Mâcon et moi à Saint-Malo,,,154
+1757,VALID,Train de nuit Louviers Troyes,Louviers,Troyes,36
+1857,INVALID,photosanciennes concarneau,,,200
+2954,INVALID,Langue parlée à Évreux,,,175
+710,VALID,Je cherche à voyager de Évreux à Challans en TER,Évreux,Challans,148
+479,VALID,Je dois me déplacer en train de Vesoul vers Montivilliers mardi,Vesoul,Montivilliers,120
+1613,VALID,Je dois me rendre de Moulins à Lorient,Moulins,Lorient,7
+1241,VALID,Train de début de soirée Épinal Saint-Brieuc,Épinal,Saint-Brieuc,123
+1719,VALID,Je veux aller de Aix-les-Bains à Limoges,Aix-les-Bains,Limoges,1
+995,VALID,Je souhaite partir en milieu de matinée de Mâcon vers Vitry-le-François,Mâcon,Vitry-le-François,92
+2994,INVALID,Centres éducatifs Granville,,,270
+3560,INVALID,Concert prévu à Charleville-Mézières,,,174
+1872,INVALID,je suis né à vesoul,,,185
+3603,INVALID,Centres culturels Strasbourg,,,254
+2811,INVALID,Bibliothèque à Nevers,,,212
+513,VALID,Train avec le moins de correspondances Dole Melun,Dole,Melun,55
+366,VALID,Je veuxel traain avec le meilleur confot Bourgg-en-Brsse Vienne,Bourg-en-Bresse,Vienne,138
+3721,VALID,je veux comparer les horaires de train de compiegne a metz,Compiègne,Metz,94
+1697,VALID,Je veux réserver pour le train de Cholet vers Cannes,Cholet,Cannes,130
+3122,INVALID,Quartiers de Chaumont,,,173
+328,VALID,Je souhaite partir de Roubaix et arriver à Cannes,Roubaix,Cannes,81
+408,VALID,Je veux partir en milieu de soirée de Gravillle pour Provins,Granville,Provins,150
+567,VALID,Je veux un train confortable de Châteaubriant à Le Puy-en-Velay,Châteaubriant,Le Puy-en-Velay,69
+1906,INVALID,histoire de yvetot,,,171
+2112,INVALID,Centres éducatifs Dijon,,,270
+2291,INVALID,Shopping à Cambrai,,,182
+979,VALID,Y a-t-il un train vers midi de Port-Boulet à Évreux ?,Port-Boulet,Évreux,137
+1942,INVALID,monument célèbre à calais,,,188
+3702,VALID,quel est le prix du billet de train lille montbeliard ?,Lille,Montbéliard,105
+2341,INVALID,Quartiers historiques Nanterre,,,227
+2656,INVALID,Restaurant à Biarritz,,,159
+3024,INVALID,Photos anciennes Douai,,,200
+1475,VALID,Y a-t-il un TGV en fin d'après-midi Saint-Nazaire Étampes ?,Saint-Nazaire,Étampes,133
+1313,VALID,Je veux un train rapide de Gap à Vienne,Gap,Vienne,35
+1398,VALID,Je veux partir maintenant de Morlaix pour Marseille,Morlaix,Marseille,56
+2836,INVALID,Je vis à Chalon-sur-Saône,,,168
+155,VALID,train avec le moins de correspondances hazebrouck agen,Hazebrouck,Agen,55
+497,VALID,Y a-t-il un TER Saint-Malo Auch ?,Saint-Malo,Auch,68
+794,VALID,Train de fin de journée Cherbourg vers Valence,Cherbourg,Valence,147
+3223,INVALID,Activités nocturnes Troyes,,,255
+3804,INVALID,informations generales verdun,,,275
+2105,INVALID,Statistiques démographiques Fécamp,,,245
+1575,VALID,Y a-t-il  u nTGV direct Bourges Tourcoing ?,Bourges,Tourcoing,93
+4054,INVALID,Carte generale Nancy,,,257
+2737,INVALID,Heure local eà Abbvelle,,,194
+2065,INVALID,Offres d'emploi Colmar,,,246
+3724,INVALID,universite a belfort,,,179
+1560,VALID,Je veux le prochain déépart en trai de  Vitry-le-FFrançois pour Albi,Vitry-le-François,Albi,122
+654,VALID,Je planifie un voyage en train de Elbeuf vers Paris,Elbeuf,Paris,49
+2905,INVALID,Office postal Bolbec,,,221
+2367,INVALID,Statistiques mploi Angers,,,225
+2627,INVALID,Meilleur moment pour visiter Montreuil,,,197
+849,VALID,Je érserve n train de Montpellier à Avrancches,Montpellier,Avranches,26
+774,VALID,Train en fin d'après-midi Nîmes Évry,Nîmes,Évry,76
+3255,INVALID,Je déménage à Limoges,,,195
+3591,INVALID,Informations trafic Dunkerque,,,260
+1512,VALID,Je cherche un train Langres Vierzon,Langres,Vierzon,14
+2037,INVALID,plan de ville le mans,,,206
+2451,INVALID,Le maire de Antibes,,,158
+760,VALID,Je souhaite prendre le train de Yvetot pour Mâcon,Yvetot,Mâcon,32
+4069,VALID,Je souhaite prendre un train en debut d'apres-midi de Fecamp a Provins,Fécamp,Provins,110
+2526,INVALID,Carte  scolaire Segré,,,230
+2938,INVALID,Espaces verts Troyes,,,239
+3731,INVALID,statistiques demographiques avignon,,,245
+1108,VALID,Je souhaite partir en milieu de matinée de Carcassonne vers Compiègne,Carcassonne,Compiègne,92
+3958,VALID,Je veux un train confortable de Vitre a Soissons,Vitré,Soissons,69
+2361,INVALID,Langue parlée à Épinal,,,175
+1572,VALID,Je veux achter unn billet de train La Rochelle éFcamp,La Rochelle,Fécamp,83
+2146,INVALID,Je suis né à Nancy,,,185
+1202,VALID,Y a-t-il un train toutes les deux heures de Lisieux à Antibes ?,Lisieux,Antibes,145
+3575,INVALID,Guide pratique Rouen,,,229
+1528,VALID,Quel est l'horaire du prochain train Saint-Malo Angoulême ?,Saint-Malo,Angoulême,64
+1899,INVALID,la distance entre auxerre et strasbourg,,,20
+1740,VALID,Je souhaite partir de Aix-en-Provence et arriver à Dunkerque,Aix-en-Provence,Dunkerque,81
+3980,INVALID,Evenements culturels Lyon,,,268
+1267,VALID,Je veux voyager en train de Saint-Denis à Le Mans,Saint-Denis,Le Mans,43
+625,VALID,Train régional de Pontivy à Segré,Pontivy,Segré,87
+3011,INVALID,Clubs sportifs Maubeuge,,,215
+3691,INVALID,evenements culturels besancon,,,268
+445,VALID,Je veux le train le plus rapide de Châteauroux à Albert,Châteauroux,Albert,79
+107,VALID,y a-t-il un tgv direct segré montreuil ?,Segré,Montreuil,93
+1862,INVALID,quartier sûr à marseille,,,190
+2071,INVALID,Statistiques locales Diion,,,261
+2274,INVALID,Centressporrtisf uDnkerque,,,235
+396,VALID,Comment rejoindre Saint-Malo depuis Châteaubriant en train ?,Châteaubriant,Saint-Malo,38
+344,VALID,Y a-t-il des réductions sur le train Digne-les-Bains Caen ?,Digne-les-Bains,Caen,99
+3239,INVALID,Musée célèbre à Rennes,,,166
+2311,INVALID,Zones résidentielles Niort,,,274
+3858,INVALID,photos aeriennes privas,,,211
+477,VALID,Je dois me rendre de Amiens à Aix-en-Provence,Amiens,Aix-en-Provence,7
+137,VALID,je veux le train avec le meilleur confort yvetot nevers,Yvetot,Nevers,138
+1521,VALID,Y a-t-il un TGV Challans Port-Boulet ?,Challans,Port-Boulet,34
+3284,INVALID,Clubs sportifs Fontenay-le-Comte,,,215
+2447,INVALID,Activités nocturnes Nantes,,,255
+4004,INVALID,Universite a Le Havre,,,179
+457,VALID,Jep ars en rtain de Boulogne-sur-Mer vers Vannes,Boulogne-sur-Mer,Vannes,71
+3696,VALID,train de fin de matinee belfort chartres,Belfort,Chartres,131
+3025,INVALID,Mon ami vit à Étampes et moi à Annemasse,,,154
+3073,INVALID,Événements locaux Villeurbanne,,,228
+3524,INVALID,Festival à Perpignan,,,189
+769,VALID,Y a-t-il un Ouigo de Rouen vers Beauvais ?,Rouen,Beauvais,109
+1226,VALID,Je veux un train confortable de Fontainebleau à Maubeuge,Fontainebleau,Maubeuge,69
+2577,INVALID,Carte historique Arles,,,210
+435,VALID,Je veux arriver à Modane depuis Fécamp,Fécamp,Modane,63
+2970,INVALID,Coût de la vie Clisson,,,209
+2879,INVALID,Guide pratique Vierzon,,,229
+725,VALID,Y a-t-il des réductions sur le train Montbéliard Carcassonne ?,Montbéliard,Carcassonne,99
+2041,INVALID,hôtel pas cher à auray,,,170
+1941,INVALID,la distance entre roubaix et cergy,,,20
+2349,INVALID,Parc célèbre à Saint-Dizier,,,203
+3652,INVALID,Patrimoine culturel Auray,,,232
+199,VALID,y a-t-il des réductions sur le train hazebrouck évreux ?,Hazebrouck,Évreux,99
+2218,INVALID,Activités sportives Montélimar,,,264
+3152,INVALID,Zones industrielles Oyonnax,,,231
+3114,INVALID,Centres éducatifs Dole,,,270
+2359,INVALID,Zones vertes Marseille,,,224
+2068,INVALID,La distance entre Maubeuge et Angoulême,,,276
+3769,INVALID,universite a concarneau,,,179
+3660,INVALID,Patrimoine culturel Aix-en-Provence,,,232
+336,VALID,Train du soir Boulogne-Billancourt Mende,Boulogne-Billancourt,Mende,66
+3573,INVALID,Population étudiante Ajaccio,,,193
+245,VALID,train pour évreux au départ de lannion,Lannion,Évreux,91
+3928,VALID,Y a-t-il un TGV direct Troyes Lourdes ?,Troyes,Lourdes,93
+4075,VALID,Train en milieu de journee Abbeville Langres,Abbeville,Langres,101
+2826,INVALID,Cartographie Blois,,,237
+1208,VALID,Je cherche le meilleur horaire d tranB ar-le-DucThonon-les-Bains,Bar-le-Duc,Thonon-les-Bains,86
+3370,INVALID,Carte interactive Épinal,,,240
+2363,INVALID,Épernay est une belle ville,,,153
+2801,INVALID,Code postal Marseille,,,176
+2841,INVALID,JJe suis né à Dijon,,,185
+583,VALID,Je veux prendre le train de Privas à Fougères,Privas,Fougères,28
+3514,INVALID,Parc célèbre à Auray,,,203
+848,VALID,Y a-t-il des réductions sur le train Belfort Mulhouse ?,Belfort,Mulhouse,99
+1624,VALID,Je veux aller de Verdun à Évry,Verdun,Évry,1
+3699,INVALID,plages proches de laval,,,181
+1786,INVALID,le maire de mende,,,158
+573,VALID,Y a-t-il un train toutes les heures de Valenciennes à Strasbourg ?,Valenciennes,Strasbourg,89
+1548,VALID,Je veux réserver pour le train dee Épernay vers Fontenay-le-Comte,Épernay,Fontenay-le-Comte,130
+960,VALID,Je dois me rendre de Valenciennes à Antibes,Valenciennes,Antibes,7
+873,VALID,Y a-t-il un train de nuit entre Boulogne-Billancourt et Clisson ?,Boulogne-Billancourt,Clisson,149
+3602,INVALID,Carte touristique de Dieppe,,,164
+1419,VALID,Combien de temps dure le trajet en train de Montreuil à Abbeville ?,Montreuil,Abbeville,60
+2446,INVALID,Agenda culturel Mâcon,,,233
+1590,VALID,Y a-t-il un TGV Reims Dunkerque ?,Reims,Dunkerque,34
+2655,INVALID,Festival à Oyonnax,,,189
+323,VALID,Je dois me rendre à Aubenas depuis Grenoble en TGV,Grenoble,Aubenas,144
+3624,INVALID,Festival à Laval,,,189
+1517,VALID,Train avec peu de monde de Abbeville à Besançon,Abbeville,Besançon,97
+372,VALID,Train vaec places assises garantie sDinan Vitry-le-François,Dinan,Vitry-le-François,119
+3820,INVALID,meteo actuelle a auray,,,167
+3058,INVALID,Entreprise connue à Douai,,,180
+2639,INVALID,Langgu eparlée à Mnosque,,,175
+464,VALID,Comment me rendre à Troyes depuis Vannes ?,Vannes,Troyes,3
+3259,INVALID,Je suis né à Mende,,,185
+3955,INVALID,Quartiers historiques Vichy,,,227
+2548,INVALID,Centres de loisirs Le Puy-en-Velay,,,262
+56,VALID,je dois me rendre à le puy-en-velay depuis bayonne en tgv,Bayonne,Le Puy-en-Velay,144
+2796,INVALID,Activités culturelles Briançon,,,247
+3454,INVALID,Population urbaine Soissons,,,266
+3779,INVALID,la distance entre soissons et pontoise,,,276
+927,VALID,Je cherche un train Périgueux Épernay,Périgueux,Épernay,14
+686,VALID,Train avec restauration de Tours à Orange,Tours,Orange,135
+1120,VALID,Train avec places assises garanties Challans Digne-les-Bains,Challans,Digne-les-Bains,119
+3360,INVALID,Je suis né à Montbéliard,,,185
+1156,VALID,Je dois être à Lyon avant midi en partant de Modane,Modane,Lyon,88
+818,VALID,Y a-t-il un Intercités Vienne Pontivy ?,Vienne,Pontivy,57
+909,VALID,Y a-t-il un Intercités Créteil Pontivy ?,Créteil,Pontivy,57
+1637,VALID,Je veux le train le plus rapide de Saint-Quentin à Arras,Saint-Quentin,Arras,79
+400,VALID,Je dois être à Montreuil avant midi en partant de Saint-Quentin,Saint-Quentin,Montreuil,88
+1638,VALID,Je dois prendre le train de Boulogne-Billancourt pour Louviers,Boulogne-Billancourt,Louviers,45
+58,VALID,je veux un train rapide de lyon à nantes,Lyon,Nantes,35
+2784,INVALID,Concert prévu à Roubaix,,,174
+978,VALID,Premier train Montélimar Épinal,Montélimar,Épinal,41
+3082,INVALID,Coût de la vie Port-Boulet,,,209
+3617,INVALID,Carte administrative Évry,,,218
+1070,VALID,Y t--il des traisn en semaine de Saint-Quentin à Beauvais ?,Saint-Quentin,Beauvais,74
+1561,VALID,Je souhaite prendre le train de Saint-Omer pour Aix-en-Provence,Saint-Omer,Aix-en-Provence,32
+3866,INVALID,universite a cherbourg,,,179
+2694,INVALID, Climat de Béthune,,,186
+490,VALID,Un billet pou rle rain Vnanes Thonon-le-Bains,Vannes,Thonon-les-Bains,51
+2962,INVALID,Marhé local Saint-enis,,,202
+766,VALID,Y a-t-il un départ en début de soirée de Colmar pour Besançon ?,Colmar,Besançon,85
+2028,INVALID,hôtel ispoinble  àbourg-en-bresse,,,163
+809,VALID,Je veux aller de Mulhouse à Pau,Mulhouse,Pau,1
+712,VALID,Combien de temps dure le trajet en train de Tarbes à Béthune ?,Tarbes,Béthune,60
+1659,VALID,Je veux un train rapide de Agen à Montauban,Agen,Montauban,35
+2089,INVALID,Clubs sportifs Carcassonne,,,215
+403,VALID,Je veux le prochain départ en train de Lons-le-Saunier pour Auch,Lons-le-Saunier,Auch,122
+85,VALID,je souhaite réserver un train de paris vers meaux,Paris,Meaux,58
+672,VALID,Je cherche à voyager de Versailles à Paris en TER,Versailles,Paris,148
+1934,INVALID,climat de versailles,,,186
+3313,INVALID,Architecture de Montivilliers,,,198
+858,VALID,Je pars de Béziers direction Aix-les-Bains,Béziers,Aix-les-Bains,12
+3519,INVALID,Quartiers de Alençon,,,173
+1937,INVALID,activités culturelles concarneau,,,247
+2610,INVALID,Zones touristiques Versailles,,,219
+1436,VALID,Prochain TGV de Biarritz pour Paris,Biarritz,Paris,95
+984,VALID,Train avec peu de correspondances de Tours vers Troyes,Tours,Troyes,127
+2412,INVALID,Office postal Louviers,,,221
+988,VALID,Je veux le train avec le meilleur confort Auch Agen,Auch,Agen,138
+3763,VALID,prochain depart de montbeliard pour saint-malo,Montbéliard,Saint-Malo,27
+1237,VALID,Train de fin de journée Lorient vers Châlons-en-Champagne,Lorient,Châlons-en-Champagne,147
+1280,VALID,Combien de temps dure le trajet en train de Saint-Brieuc à Vendôme ?,Saint-Brieuc,Vendôme,60
+2553,INVALID,Quatriers historiques Nancyy,,,227
+92,VALID,y a-t-il un ouigo de bordeaux vers cherbourg ?,Bordeaux,Cherbourg,109
+93,VALID,train de milieu d'après-midi mulhouse quimper,Mulhouse,Quimper,143
+2077,INVALID,Rodez est une belle ville,,,18
+277,VALID,Je pars demain de Toulon vers Saint-Malo,Toulon,Saint-Malo,37
+2974,INVALID,Marché local Ancenis,,,202
+345,VALID,Train pour Les Sables-d'Olonne au départ de Elbeuf,Elbeuf,Les Sables-d'Olonne,91
+449,VALID,Je cherche un train dimanche de Langres à Modane,Langres,Modane,132
+544,VALID,Y a-t-il un TGV en fin d'après-midi Aix-en-Provence Lunéville ?,Aix-en-Provence,Lunéville,133
+1654,VALID,Je veux partir de Lourdes à Saint-Malo en première classe,Lourdes,Saint-Malo,142
+1196,VALID,Je voudrais aller de Chalon-sur-Saône à Loches en TGV,Chalon-sur-Saône,Loches,47
+144,VALID,billet de train aller-retour nîmes maubeuge,Nîmes,Maubeuge,78
+737,VALID,Train express de Albert vers Boulogne-Billancourt,Albert,Boulogne-Billancourt,139
+1230,VALID,Je veux me rendre à Montélimar depuis Sens par le train,Sens,Montélimar,73
+4024,VALID,PProchain depart  de Segre pour La Rochelle,Segré,La Rochelle,27
+3089,INVALID,Meilleur mmoent pour visiter Aix-en-Provence,,,197
+2019,INVALID,carte de les sables-d'olonne,,,169
+1904,INVALID,monument célèbre à la rochelle,,,188
+3810,INVALID,hotel disponible a antibes,,,163
+1859,INVALID,carte administrative port-boulet,,,218
+1817,INVALID,carte des quartiers boulogne-sur-mer,,,267
+293,VALID,Je veux me rendre à Blois depuis Toul par le train,Toul,Blois,73
+3618,INVALID,Que temps fait-il à Gap ?,,,151
+3655,INVALID,Quelle heure est-il à Digne-les-Bains ?,,,160
+1270,VALID,Y a-t-il un TGV Chalon-sur-Saône Dieppe ?,Chalon-sur-Saône,Dieppe,34
+286,VALID,Prochain train pour Melun depuis Tours,Tours,Melun,13
+1444,VALID,Je cherche un train dimanche de Lourdes à Douai,Lourdes,Douai,132
+2324,INVALID,Carte des routes Boulogne-Billancourt,,,223
+3328,INVALID,Chaumont ou Bordeaux pour les vacances ?,,,157
+3510,INVALID,Agenda culturel Les Sables-d'Olonne,,,233
+1429,VALID,Je souhaite voyager de Cholet vers Tarbes,Cholet,Tarbes,5
+2264,INVALID,Mon ai vit à Pontivy t moi à Elbeuf,,,154
+303,VALID,Y a-t-il un train rapide sans arrêt Ancenis Bayonne ?,Ancenis,Bayonne,113
+580,VALID,Je veux le prochain départ en train de Yvetot pour Saint-Brieuc,Yvetot,Saint-Brieuc,122
+2410,INVALID,Univveisté à Épinal,,,179
+1252,VALID,Je veux comparer les horaires de train de Bourgoin-Jallieu à Béthune,Bourgoin-Jallieu,Béthune,94
+3661,INVALID,Hôtel pas cher à Nîmes,,,170
+808,VALID,Y a-t-il un Intercités Calais Étampes ?,Calais,Étampes,57
+2723,INVALID,Concert prévu à Blois,,,174
+4023,VALID,Y a-t-il un Ouigo de Boulogne-sur-Mer vers Lorient ?,Boulogne-sur-Mer,Lorient,109
+2020,INVALID,statistiques météo grenoble,,,204
+2624,INVALID,Statistiques démographiques Angers,,,245
+1664,VALID,Je cherche à aller de Évreux à Tourcoing par le train,Évreux,Tourcoing,116
+668,VALID,Je dois prendre le train de Orléans pour Agen,Orléans,Agen,45
+4114,INVALID,Heure locale a Rouen,,,194
+2895,INVALID,Associations locales Berck,,,236
+2439,INVALID,Statistiques emploi Tarbes,,,225
+163,VALID,je vais de metz à vitré en train,Metz,Vitré,52
+2070,INVALID,Transport urbain Dunkerque,,,258
+3268,INVALID,J'habite actuellement à Angoulême,,,161
+1286,VALID,Je veux prendre le train de Fougères à Nevers,Fougères,Nevers,28
+2175,INVALID,Restaurant à Toul,,,159
+2845,INVALID,Population étudiante Compiègne,,,193
+1020,VALID,Je veux un train avec prises électriques Saint-Dizier Lisieux,Saint-Dizier,Lisieux,146
+20,VALID,train du matin beauvais elbeuf,Beauvais,Elbeuf,29
+1752,VALID,Départ Vedun arrivvée Ajaccio,Verdun,Ajaccio,15
+738,VALID,Y a-t-il un train de nuit entre Béthune et Vendôme ?,Béthune,Vendôme,149
+2846,INVALID,Limoges est une belle ville,,,153
+926,VALID,Je cherche un train dimanche de Bourges à Metz,Bourges,Metz,132
+841,VALID,Je souhaite prendre le train de Vitré pour Villeurbanne,Vitré,Villeurbanne,32
+3984,VALID,Un aller simple Lille Saint-Omer,Lille,Saint-Omer,10
+1758,VALID,Je veux comparer les horaires de train de Brest à Montbéliard,Brest,Montbéliard,94
+1559,VALID,Train du soir Paris Auxerre,Paris,Auxerre,66
+2742,INVALID,Météo actuelle à Dijon,,,167
+1718,VALID,Je cherche un train après 18h de Bourges vers Segré,Bourges,Segré,98
+1122,VALID,Je veux partir maintenant de Dole pour Pontivy,Dole,Pontivy,56
+1332,VALID,Je veux le train le plus rapide de Metz à Tours,Metz,Tours,79
+534,VALID,Je dois prendre le train de Soissons pour Louviers,Soissons,Louviers,45
+502,VALID,Y --til un trian avant 8h de Vernon à Boulogne-Billancuort ?,Vernon,Boulogne-Billancourt,103
+4093,INVALID,Zones commerciales Perpignan,,,263
+1450,VALID,Je voudrais partir de Tourcoing pour aller à Loches,Tourcoing,Loches,9
+2738,INVALID,Carte des routes Dunkerque,,,223
+210,VALID,train de nuit melun verdun,Melun,Verdun,36
+2779,INVALID,Écoles à Quimper,,,213
+1100,VALID,Y a-t-il un Ouigo de Pau vers Nîmes ?,Pau,Nîmes,109
+1897,INVALID,spécialités culinaires privas,,,187
+3906,VALID,Je veux un billet flexible Fontenay-le-Comte Vitre,Fontenay-le-Comte,Vitré,114
+874,VALID,Train de fin de matinée Verdun Toul,Verdun,Toul,131
+1912,INVALID,informations générales marseille,,,275
+1468,VALID,Je veux réserver une place dans le train Dinan Nancy,Dinan,Nancy,90
+367,VALID,Comment rejoindre Annecy depuis Vendôme en train ?,Vendôme,Annecy,38
+2056,INVALID,événements locaux montélimar,,,228
+3063,INVALID,Zones touristiques Aubenas,,,219
+3616,INVALID,Économie de Arles,,,199
+2103,INVALID,Informations locales Arles,,,241
+2480,INVALID,Je suis né à Lunéville,,,185
+3009,INVALID,Informations pratiques Abbeville,,,256
+2215,INVALID,Centres commerciaux Saint-Étienne,,,226
+113,VALID,départ abbeville arrivée clisson,Abbeville,Clisson,15
+2537,INVALID,Je vis à Dunkerque,,,168
+2021,INVALID,je vis à chambéry,,,168
+1535,VALID,Je veux un billet flexible Mâcon Dinan,Mâcon,Dinan,114
+2878,INVALID,Statistiques économiques Toulon,,,272
+1845,INVALID,carte postale laon,,,196
+1078,VALID,Je cherche un trajet en train de Manosque vers Nantes,Manosque,Nantes,30
+3154,INVALID,Espaces verts Blois,,,239
+1923,INVALID,carte météo poitiers,,,191
+1765,VALID,Y a-t-il un train vers midi de Aubenas à Montauban ?,Aubenas,Montauban,137
+2791,INVALID,Heure locale à Metz,,,194
+3229,INVALID,Services municipaux Toulouse,,,259
+3202,INVALID,Mon ami vit à Blois et moi à Cannes,,,154
+1614,VALID,Train de Cannes à Tarbes cet après-midi,Cannes,Tarbes,59
+146,VALID,y a-t-il deest rains disponibles de roubaix à montreuil ?,Roubaix,Montreuil,50
+3080,INVALID,Activités culturelles Paris,,,247
+2790,INVALID,Carte postale Bourgoin-Jallieu,,,196
+2559,INVALID,Informations pratiques Mende,,,256
+2918,INVALID,Écoles à Chartres,,,213
+3633,INVALID,Festival à Biarritz,,,189
+246,VALID,je pars en train de montélimar vers bar-le-duc,Montélimar,Bar-le-Duc,71
+2471,INVALID,Informations générales Privas,,,275
+3849,VALID,train de fin de matinee montauban etampes,Montauban,Étampes,131
+3214,INVALID,Événements culturels Lisieux,,,268
+2651,INVALID,Carte météo Granville,,,191
+2326,INVALID,Informations générales Créteil,,,275
+2804,INVALID,Je déménage à Perpignan,,,195
+2782,INVALID,Événements locaux Metz,,,228
+2843,INVALID,Clubs sportifs Valenciennes,,,215
+2862,INVALID,Shopping à Auxerre,,,182
+2629,INVALID,Bar-le-Duc ou Calais pour les vacances ?,,,157
+1424,VALID,Quels sont les horaires de train Gap Antibes ?,Gap,Antibes,8
+1213,VALID,Je veux me rendre à Maubeuge depuis Pau par le train,Pau,Maubeuge,73
+1562,VALID,Billet de train aller-retour Louviers Montpellier,Louviers,Montpellier,78
+3314,INVALID,Concert prévu à Bolbec,,,174
+2516,INVALID,Je suis né à Dunkerque,,,185
+3103,INVALID,Journaux locaux Tarbes,,,192
+3856,INVALID,espaces verts mulhouse,,,239
+2241,INVALID,Carte postale Dieppe,,,196
+3271,INVALID,Événements culturels Angers,,,268
+346,VALID,Je dois me rendre de Tours à Melun,Tours,Melun,7
+94,VALID,je planifie un voyage en train de moulins vers valenciennes,Moulins,Valenciennes,49
+4112,VALID,Train avec peu de monde de Rouen a Montreuil,Rouen,Montreuil,97
+2386,INVALID,Statistiques démographiques Aix-les-Bains,,,245
+272,VALID,Train de fin de matinée Étampes Romans-sur-Isère,Étampes,Romans-sur-Isère,131
+3518,INVALID,Monument célèbre à Albi,,,188
+4039,VALID,Quel train me conseillez-vous de Grenoble a Albi ?,Grenoble,Albi,53
+1688,VALID,Je voudrais connaître les horaires de train de Chalon-sur-Saône à Montreuil,Chalon-sur-Saône,Montreuil,67
+3675,INVALID, Écolesà  Valenciennnes,,,213
+2400,INVALID,Quelle est la population de Argenteuil ?,,,155
+313,VALID,Je prends le train de La Rochelle à Verdun,La Rochelle,Verdun,61
+1306,VALID,Y a-t-il un train de nuit entre Saint-Dizier et Charleville-Mézières ?,Saint-Dizier,Charleville-Mézières,149
+3375,INVALID,Photos aériennes Nantes,,,211
+73,VALID,je pars demain de clermont-ferrand vers vernon,Clermont-Ferrand,Vernon,37
+3126,INVALID,Population étudiante Courbevoie,,,193
+3057,INVALID,Clubs sportifs Aubenas,,,215
+2588,INVALID,Cherbourg est magnifique en été,,,162
+3163,INVALID,Bonjour,,,156
+1256,VALID,Je souhaite prendre un train en début d'après-midi de Villeurbanne à Lons-le-Saunier,Villeurbanne,Lons-le-Saunier,110
+142,VALID,je souhaite partir en milieu de matinée de auxerre vers toulouse,Auxerre,Toulouse,92
+1930,INVALID,carte de strasbourg,,,169
+4014,VALID,Depart Melun arrivee Caen,Melun,Caen,15
+2759,INVALID,Calendrier événements Évreux,,,248
+3670,INVALID,Zones touristiques Lannion,,,219
+1524,VALID,Je veux me rendre à Mâcon depuis Bayonne par le train,Bayonne,Mâcon,73
+2497,INVALID,oBnjour,,,21
+3641,INVALID,Carte de Provins,,,169
+4034,INVALID,Statistiques locales Beauvais,,,261
+2819,INVALID,Quartiers historiques Dunkerque,,,227
+2210,INVALID,Cinéma à Montpellier,,,216
+992,VALID,À quelle heure arrive le train à Montreuil depuis Évreux ?,Évreux,Montreuil,48
+469,VALID, veux résever pour le traiin de Anerss vers Montiivilliers,Angers,Montivilliers,130
+877,VALID,Y a-t-il un départ vers 14h de Chaumont pour Port-Boulet ?,Chaumont,Port-Boulet,117
+4100,VALID,Train direct sans correspondance Lisieux Dijon,Lisieux,Dijon,82
+1476,VALID,Prochain départ de Boulogne-Billancourt pour Évreux,Boulogne-Billancourt,Évreux,27
+433,VALID,Train pour Montpellier au départ de Orange,Orange,Montpellier,91
+43,VALID,un aller simple châteauroux montargis,Châteauroux,Montargis,10
+2058,INVALID,niort est une belle ville,,,18
+134,VALID,à quelle heure arrive le train à rennes depuis créteil ?,Créteil,Rennes,48
+2707,INVALID,Carte détaillée Vienne,,,265
+1465,VALID,Je souhaite partir en milieu de matinée de Épernay vers Albertville,Épernay,Albertville,92
+666,VALID,Je veux acheter un billet de train Mâcon Rouen,Mâcon,Rouen,83
+3287,INVALID,Hôtel pas cher à Aurillac,,,170
+4052,INVALID,Marches hebdomadaires Montargis,,,238
+1856,INVALID,informations trafic mulhouse,,,260
+2406,INVALID,Carte détailél eAuraay,,,265
+1571,VALID,Y a-t-il un train rapide sans arrêt Pontoise Limoges ?,Pontoise,Limoges,113
+3713,VALID,je veux le prochain depart en train de vienne pour saint-etienne,Vienne,Saint-Étienne,122
+3949,VALID,Un billet pour le train Lourdes Limoges,Lourdes,Limoges,51
+1205,VALID,Train quotidien Amiens Metz,Amiens,Metz,107
+3540,INVALID,Guide local Saint-Brieuc,,,269
+1389,VALID,Je veux partir en train de Loches à Romans-sur-Isère samedi,Loches,Romans-sur-Isère,126
+2688,INVALID,Actualités à Auray,,,178
+2754,INVALID,Le maire de Auray,,,24
+3867,INVALID,carte meteo abbeville,,,191
+2800,INVALID,Centres culturels Les Sables-d'Olonne,,,254
+1071,VALID,Y a-t-il un TGV en fin d'après-midi Chambéry Saint-Étienne ?,Chambéry,Saint-Étienne,133
+2229,INVALID,Espaces verts Dunkerque,,,239
+893,VALID,Je cherche un train pour demain de Maubeuge à Rodez,Maubeuge,Rodez,75
+1168,VALID,Billet aller simple en train Rennes Albertville,Rennes,Albertville,70
+195,VALID,je voudrais partir de carcassonne pour aller à meaux,Carcassonne,Meaux,9
+316,VALID,Je souhaite partir de Saint-Denis et arriver à Boulogne-sur-Mer,Saint-Denis,Boulogne-sur-Mer,81
+3973,INVALID,Centres educatifs Lourdes,,,270
+1957,INVALID,la distance entre boulogne-sur-mer et cannes,,,20
